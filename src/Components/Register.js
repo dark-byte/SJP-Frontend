@@ -1,5 +1,4 @@
 import React from 'react';
-import './Register.css';
 import backgroundImage from '../Assets/jogfalls.jpg';
 import { FaGoogle, FaLinkedin } from 'react-icons/fa'; // Import Google and LinkedIn icons from react-icons
 
