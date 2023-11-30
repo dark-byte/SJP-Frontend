@@ -20,7 +20,7 @@ body{
 
 .nav{
   display: flex;
-  padding: 2rem 4rem;
+  padding: 2rem;
   align-items: center;
 }
 
@@ -219,9 +219,8 @@ a{
   display: flex;
   border-radius: 14px;
   width: 70%;
-  height: 70%; 
+  min-height: 70%; 
   min-width: 400px;
-  min-height: 500px;
   flex-direction: column;
   box-shadow: rgba(0, 0, 0, 0.148) 0px 15px 25px 0px;
 }
@@ -241,7 +240,6 @@ a{
 path {
   fill: none;
   stroke: #7387bf;
-  stroke-width: 20;
 }
   
 
@@ -261,7 +259,7 @@ path {
   border-radius: 8px;
 }
 
-.login-form a, p{
+.login-form a, .login-form p{
   margin-bottom: 1rem;
   margin-right: 0;
   text-align: center;
@@ -306,6 +304,10 @@ path {
 .social-login-icon{
   margin-right: 10px;
   color: #fff;
+}
+
+.social-login-icon path{
+  fill: white;
 }
 
 .google-btn:hover{
