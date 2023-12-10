@@ -6,11 +6,11 @@ const FeaturedJobList = () => {
   return (
 
     <div className="featured-job-list-container">
-        <div className='featured-job-list'>
+      <div className='featured-job-list'>
         {jobs.map((job)=>{
             return <JobCard {...job}/>
         })}
-        </div>
+      </div>
     </div>
   )
 }
