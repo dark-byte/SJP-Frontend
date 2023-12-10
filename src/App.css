@@ -345,3 +345,33 @@ path {
   background-color: #f0f0f0; /* Change the background color on hover */
 }
 
+
+
+.featured{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.featured-job-list-container{
+  margin: 0 2rem;
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.featured-job-list{
+  width: 100%;
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(auto-fill, 400px);
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+.job-card{
+  background-color: var(--bg-secondary);
+  padding: 1rem;
+}
